@@ -31,7 +31,7 @@ import Footer from './components/Footer';
     font-family: 'Roboto', sans-serif;
   }
   #app{
-    width: 95%;
+    width: 90%;
     margin: 0px auto;
     padding: 0px;
     background-color: white;

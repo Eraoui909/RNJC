@@ -101,7 +101,6 @@ export default {
   .ha-argumentaire h1{
     font-weight: bold;
     color: #4267b2;
-    text-decoration: solid;
   }
   .ha-argumentaire .ha-content{
     padding: 20px 50px;

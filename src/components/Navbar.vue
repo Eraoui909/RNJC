@@ -9,8 +9,8 @@
           <div class="navbar-nav">
             <router-link class="nav-item nav-link active" to="/">Acceuil </router-link>
             <router-link class="nav-item nav-link" to="/argumentaire">Argumentaire</router-link>
-            <router-link class="nav-item nav-link" to="#">Equipe du Colloque</router-link>
-            <router-link class="nav-item nav-link" to="#">Calendrier</router-link>
+            <router-link class="nav-item nav-link" to="/equipe-du-colloque">Equipe du Colloque</router-link>
+            <router-link class="nav-item nav-link" to="/calendrier">Calendrier</router-link>
             <router-link class="nav-item nav-link" to="#">Procédure de Soumission</router-link>
             <router-link class="nav-item nav-link" to="#">Normes de Rédaction</router-link>
             <router-link class="nav-item nav-link" to="#">Références bibliographiques</router-link>
