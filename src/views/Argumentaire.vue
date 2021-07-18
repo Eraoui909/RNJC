@@ -53,36 +53,51 @@
         Cette première édition se veut ainsi l’outil fédérateur des différentes pratiques formatives innovantes
         à l’université. Pour cela, le colloque portera sur les axes suivants :
       </p>
-      <Strong>1er Axe : Innovation pédagogique à l’université</Strong>
-      <ul>
-        <li>Cadres théoriques et méthodologiques de l'innovation pédagogique ;</li>
-        <li>Moyens pratiques d'amélioration des apprentissages (pédagogie par projet, pédagogie active, classe inversée, milieux d’apprentissage innovants, etc.) ;</li>
-        <li>Portfolio des compétences et certifications ;</li>
-        <li>Enseignement à distance et TICE ;</li>
-        <li>Scénarisation des compétences. </li>
-      </ul>
-      <strong>2ème  Axe : Accompagnement vers l’employabilité</strong>
-      <ul>
-        <li>De la connaissance de soi à l'employabilité ;</li>
-        <li>Accompagnement à l'entreprenariat ;</li>
-        <li>Préparation aux métiers de demain ;</li>
-        <li>Valorisation et évaluation des compétences pour l'employabilité ; </li>
-        <li>Agir professoral et impact sur l’employabilité.</li>
-      </ul>
-      <strong>3ème  Axe : les softs skills </strong>
-      <ul>
-        <li>Enseignement, apprentissage et mode d’évaluation des soft skills;</li>
-        <li>Soft skills et savoir-agir en situations professionnelles;</li>
-        <li>Soft skills et éthique professionnelle;</li>
-        <li>Soft skills et compétences linguistiques et communicationnelles;</li>
-        <li>Référentiel de compétences pour les ingénieurs marocains.</li>
-        <li>Approfondissement et développement des soft skills.</li>
-        <li>L’apport du e-learning dans l’acquisition des soft skills.</li>
-      </ul>
-      <p>
-        Les différents axes ne sont pas exhaustifs, toute communication portant une valeur ajoutée à la thématique
-        principale sera acceptée.
-      </p>
+      <div>
+        <Strong>1er Axe : Innovation pédagogique à l’université</Strong>
+        <div class="list-type2">
+          <ol>
+            <li><a href="#">Cadres théoriques et méthodologiques de l'innovation pédagogique ;</a></li>
+            <li><a href="#">Moyens pratiques d'amélioration des apprentissages (pédagogie par projet, pédagogie active, classe inversée, milieux d’apprentissage innovants, etc.) ;</a></li>
+            <li><a href="#">Portfolio des compétences et certifications ;</a></li>
+            <li><a href="#">Enseignement à distance et TICE ;</a></li>
+            <li><a href="#">Scénarisation des compétences. </a></li>
+          </ol>
+        </div>
+      </div>
+      <div>
+        <strong>2ème  Axe : Accompagnement vers l’employabilité</strong>
+        <div class="list-type2">
+          <ol>
+            <li><a href="#">De la connaissance de soi à l'employabilité ;</a></li>
+            <li><a href="#">Accompagnement à l'entreprenariat ;</a></li>
+            <li><a href="#">Préparation aux métiers de demain ;</a></li>
+            <li><a href="#">Valorisation et évaluation des compétences pour l'employabilité ; </a></li>
+            <li><a href="#">Agir professoral et impact sur l’employabilité.</a></li>
+          </ol>
+        </div>
+      </div>
+      <div>
+        <strong>3ème  Axe : les softs skills </strong>
+        <div class="list-type2">
+          <ol>
+            <li><a href="#">Enseignement, apprentissage et mode d’évaluation des soft skills;</a></li>
+            <li><a href="#">Soft skills et savoir-agir en situations professionnelles;</a></li>
+            <li><a href="#">Soft skills et éthique professionnelle;</a></li>
+            <li><a href="#">Soft skills et compétences linguistiques et communicationnelles;</a></li>
+            <li><a href="#">Référentiel de compétences pour les ingénieurs marocains.</a></li>
+            <li><a href="#">Approfondissement et développement des soft skills.</a></li>
+            <li><a href="#">L’apport du e-learning dans l’acquisition des soft skills.</a></li>
+          </ol>
+        </div>
+      </div>
+      <div class="ha-conclusion">
+        <p>
+          Les différents axes ne sont pas exhaustifs, toute communication portant une valeur ajoutée à la thématique
+          principale sera acceptée.
+        </p>
+      </div>
+
     </div>
   </div>
 </template>
@@ -112,7 +127,67 @@ export default {
     letter-spacing: 1.5px;
   }
   .ha-argumentaire .ha-content strong{
-    color: red;
+    color: #4267b2;
+  }
+  .list-type2{
+    width:90%;
+    margin:0 auto;
   }
 
+  .list-type2 ol{
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin-bottom: 4em;
+  }
+
+  .list-type2 ol ol{
+    margin: 0 0 0 2em;
+  }
+
+  .list-type2 a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #FC756F;
+    color: #444;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+  }
+
+  .list-type2 a:hover{
+    background: #d6d4d4;
+    text-decoration:none;
+    transform: scale(1.1);
+  }
+
+  .list-type2 a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background:#FC756F;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    color:#FFF;
+  }
+
+  .ha-conclusion{
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #EEE;
+    box-shadow: 0px 0px 8px 2px gray;
+    font-size: 20px;
+  }
 </style>

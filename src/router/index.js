@@ -1,10 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import ContactUs from "@/views/ContactUs";
-import Argumentaire from "@/views/Argumentaire";
-import EquipeDuColloque from "@/views/EquipeDuColloque";
-import Calendrier from "@/views/Calendrier";
+
 
 Vue.use(VueRouter)
 
@@ -12,27 +8,42 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () =>  import('../views/Home')
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: ContactUs
+    component:() =>  import('../views/ContactUs')
   },
   {
     path: '/argumentaire',
     name: 'Argumentaire',
-    component: Argumentaire
+    component:() =>   import('../views/Argumentaire')
   },
   {
     path: '/equipe-du-colloque',
     name: 'equipe-du-colloque',
-    component: EquipeDuColloque
+    component: () => import('../views/EquipeDuColloque')
   },
   {
     path: '/calendrier',
     name: 'Calendrier',
-    component: Calendrier
+    component: () => import('../views/Calendrier')
+  },
+  {
+    path: '/procedure-de-soumission',
+    name: 'procedure-de-soumission',
+    component: () => import('../views/ProcedureDeSoumission')
+  },
+  {
+    path: '/normes-de-redaction',
+    name: 'normes-de-redaction',
+    component: () => import('../views/NormesDeRedaction')
+  },
+  {
+    path: '/references-bibliographiques',
+    name: 'references-bibliographiques',
+    component: () => import('../views/ReferencesBibliographiques')
   },
 ]
 
