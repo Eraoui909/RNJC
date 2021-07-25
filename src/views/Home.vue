@@ -5,7 +5,7 @@
       <div class="bgimg">
         <center>
           <div class="middle">
-            <h1 class="ha-countdown-title" style="text-shadow: 2px 2px #EEE;">Il reste pour le début de colloque</h1>
+            <h1 class="ha-countdown-title" >Il reste pour le début de colloque</h1>
             <hr>
             <p id="demo"></p>
           </div>
@@ -53,13 +53,16 @@ export default {
       let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      document.getElementById("demo").innerHTML =
-          "<div  style='display: flex;justify-content: space-evenly;flex-wrap: wrap; width: 60%'>"
-          +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: transparent;width: 200px;height: 180px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ days    + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>jours  </p> " +"</div>"
-          +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: transparent;width: 200px;height: 180px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ hours   + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>heures </p> " +"</div>"
-          +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: transparent;width: 200px;height: 180px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ minutes + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>minutes</p> " +"</div>"
-          +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: transparent;width: 200px;height: 180px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ seconds + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>seconds</p> " +"</div>"
-          +"</div>";
+      if(document.getElementById("demo") !== null){
+        document.getElementById("demo").innerHTML =
+            "<div  style='display: flex;justify-content: space-evenly;flex-wrap: wrap; width: 60%'>"
+            +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: rgba(255,255,255,0.17);width: 160px;height: 160px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ days    + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>jours  </p> " +"</div>"
+            +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: rgba(255,255,255,0.17);width: 160px;height: 160px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ hours   + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>heures </p> " +"</div>"
+            +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: rgba(255,255,255,0.17);width: 160px;height: 160px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ minutes + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>minutes</p> " +"</div>"
+            +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: rgba(255,255,255,0.17);width: 160px;height: 160px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ seconds + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>seconds</p> " +"</div>"
+            +"</div>";
+      }
+
 
       if (distance < 0) {
         clearInterval(x);
@@ -93,7 +96,7 @@ export default {
 
 .ha-coming-soon h1{
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: white;
 }
 

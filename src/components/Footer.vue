@@ -13,7 +13,7 @@
           <span>Cellule TEC & Gestion</span>
         </div>
         <div class="col-md-6" style="text-align: right">
-          <span>Devolopped By <strong>Hamza Eraoui</strong> & <strong>Achraf Zaim</strong></span>
+          <span>Devolopped By <strong>Hamza Eraoui</strong></span>
         </div>
       </div>
   </div>
