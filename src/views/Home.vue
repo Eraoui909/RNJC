@@ -14,7 +14,7 @@
       <div class="ha-home-content">
 
         <section class="ha-nb">
-          <span style="margin-left: 20px;font-size: 17px">Le colloque aura lieu en présentiel si la situation pandémique le permet, ou, en distanciel, le cas contraire.</span>
+          <span style="margin-left: 20px;font-size: 17px">Le colloque aura lieu en présentiel si la situation pandémique le permet, ou, à distance, le cas contraire.</span>
         </section>
 
         <section class="ha-fiche">
