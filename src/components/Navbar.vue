@@ -12,7 +12,8 @@
             <router-link class="nav-item nav-link" to="/equipe-du-colloque">Comités</router-link>
             <router-link class="nav-item nav-link" to="/calendrier">Calendrier</router-link>
             <router-link class="nav-item nav-link" to="/procedure-de-soumission">Soumission</router-link>
-            <router-link class="nav-item nav-link" to="/normes-de-redaction">Normes de Rédaction</router-link>
+            <router-link class="nav-item nav-link" to="/programme">Programme</router-link>
+            <router-link class="nav-item nav-link" to="/conferenciers">Conférenciers </router-link>
             <router-link class="nav-item nav-link" to="/contact">Contact</router-link>
           </div>
         </div>

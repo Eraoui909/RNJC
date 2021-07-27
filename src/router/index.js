@@ -36,10 +36,15 @@ const routes = [
     component: () => import('../views/ProcedureDeSoumission')
   },
   {
-    path: '/normes-de-redaction',
+    path: '/programme',
     name: 'normes-de-redaction',
-    component: () => import('../views/NormesDeRedaction')
+    component: () => import('../views/programme')
   },
+  {
+      path: '/conferenciers',
+      name: 'conferenciers',
+      component: () => import('../views/conferenciers')
+    },
 
 ]
 

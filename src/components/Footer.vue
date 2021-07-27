@@ -41,7 +41,7 @@
           <span>Cellule TEC & Gestion</span>
         </div>
         <div class="col-md-6" style="text-align: right">
-          <span>Devolopped By <strong>Hamza Eraoui</strong></span>
+          <span>Developed by <strong>Hamza Eraoui</strong></span>
         </div>
       </div>
   </div>
@@ -64,7 +64,6 @@ export default {
     background-color: #353535;
   }
   .ha-footer-1 div{
-    height: 200px;
   }
   .ha-footer-1 div h4{
     padding-top: 10px;

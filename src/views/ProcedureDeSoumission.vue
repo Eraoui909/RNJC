@@ -1,6 +1,6 @@
 <template>
   <div class="ha-procedure">
-    <h1>Procédure de soumission</h1>
+    <h1>Soumission</h1>
     <div class="ha-procedure-n">
       <div class="ha-procedure-1">
         <h2>L’intention de communication</h2>
@@ -24,7 +24,53 @@
 
       </div>
     </div>
+    <div class="ha-normes">
+      <h1>Normes de redaction</h1>
+      <div class="ha-normes-content">
+        <div class="list-type">
+          <ul class="ha-first">
+            <li><a href="#">Les communications devront être envoyées sous format (Word, PDF).
+              Elles peuvent être rédigées en langue française ou anglaise. </a></li>
+            <li ><a href="#">Le format de soumission des textes de communications doit respecter les instructions suivantes : </a></li>
+              <ul class="ha-second">
+                <li><a href="#">La première page contiendra les noms et statut des auteurs, établissement, université d’affiliation, laboratoire et le titre de la communication. (Téléphone et adresse électronique)</a></li>
+                <li><a href="#">La deuxième page ne contiendra que le titre de la communication, le résumé dans la langue de l’article et dans une autre langue parmi les langues retenues pour les communications et 3 à 5 mots clés.</a></li>
+                <li><a href="#">Le résumé : 300 mots maximum</a></li>
+                <li><a href="#">Le texte sous format Word, caractères Times 12, format, A4, marges de 2,5 cm, 1,5 ligne, 15 pages maximum y compris : tableaux, schémas, images.</a></li>
+                <li><a href="#">Les titres suivent une numérotation simple : 1., 1.1., 1.1.1., etc.</a></li>
+                <li><a href="#">Titre : times 16 en gras</a></li>
+                <li><a href="#">Nom de l’auteur : times 12 en gras</a></li>
+                <li><a href="#">Résumé en gras en 14, puis contenu en times 12</a></li>
+                <li><a href="#">Introduction : Times 14 en gras</a></li>
+                <li><a href="#">Titre 1. : Times 14 en gras</a></li>
+                <li><a href="#">Titres1.1. : Times 12 en gras</a></li>
+                <li><a href="#">Conclusion : Times 14 en gras</a></li>
+                <li><a href="#">
+                  Bibliographie : Times 14 en gras, puis contenu en times 12, suivant le modèle suivant :
+                </a></li>
+                  <ul class="ha-third">
+                    <li><a href="#">Ouvrage : nom de l’auteur et initiale du prénom, date de publication, Titre de l’ouvrage, Editeur, Lieu d’édition.</a></li>
+                    <li><a href="#">Article : nom de l’auteur et initiale du prénom, date de publication, « Titre de l’article », Titre de la revue, Vol. x, N°, pp.</a></li>
+                  </ul>
+              </ul>
+          </ul>
+        </div>
+
+        <div class="ha-conclusion">
+          <p>
+            Les meilleures communications du colloque feront l’objet d’une publication
+            Pour toutes informations supplémentaires, veuillez-vous adresser à :
+            <a href="mailto:colloqinnovpedag21@gmail.com">colloqinnovpedag21@gmail.com</a>
+          </p>
+          Contacts : Samira SLAOUI    : <a href="tel:0663321377">06 63 32 13 77</a>
+          Hasna BOUTOUIL : <a href="tel:0672739463">06 72 73 94 63</a>
+
+        </div>
+      </div>
+    </div>
+
   </div>
+
 </template>
 
 <script>
@@ -41,6 +87,10 @@ export default {
   .ha-procedure h1{
     font-weight: bold;
     color: #4267b2;
+    font-size: 2em;
+  }
+  .ha-procedure h2{
+    font-size: 1.5em;
   }
   .ha-procedure-n{
     width: 80%;
@@ -104,6 +154,36 @@ export default {
     text-align: center;
     font-weight: bold;
     color: gray;
+  }
+
+  .list-type{
+    padding: 15px;
+  }
+  .list-type a{
+    color: black;
+    text-decoration: none;
+  }
+  .list-type .ha-first{
+    font-size: 20px;
+  }
+  .list-type .ha-second{
+      font-size: 16px;
+      color: #999;
+    }
+  .list-type .ha-third{
+      font-size: 14px;
+      color: #EEE;
+    }
+
+  .ha-conclusion{
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f3f3f3;
+    box-shadow: 0px 0px 8px 2px gray;
+    font-size: 20px;
+  }
+  .ha-conclusion a{
+    text-decoration: none;
   }
 
 </style>

@@ -1,44 +1,36 @@
 <template>
   <div class="ha-equipe">
-    <h1>Equipe du Colloque</h1>
+    <h1>Comités</h1>
 
     <div style="padding: 15px">
 
       <div class="row">
-        <div class="col">
-          <strong class="ha-click-event" v-on:click="fadeList('.ha-coordonnateurs-list')">Coordonnateurs et responsables du colloque</strong>
-          <div class="list-type2 ha-coordonnateurs-list">
-            <ol>
-              <li ><a href="#"> Jamal Eddine HAZEM <span class="ha-custom-badge text-right">FST FES</span> </a></li>
-              <li ><a href="#"> Samira SLAOUI <span class="ha-custom-badge">FST FES</span> </a></li>
-              <li ><a href="#"> Asmae BELKHOU <span class="ha-custom-badge">EST FES</span> </a></li>
-              <li ><a href="#"> Hasna BOUTOUIL <span class="ha-custom-badge">FST FES</span> </a></li>
-            </ol>
-          </div>
-        </div>
-        <div class="col">
+        <div class="col-12">
           <strong class="ha-click-event" v-on:click="fadeList('.ha-honneur-list')">Comité d’honneur</strong>
           <div class="list-type2 ha-honneur-list">
             <ol>
-              <li ><a href="#"> MRABET Radouane  <span class="ha-custom-badge text-right">President USMBA</span> </a></li>
-              <li ><a href="#"> IJJAALI Mustapha   <span class="ha-custom-badge">Doyen FST FES</span> </a></li>
+              <li ><a href="#"> MRABET Radouane  <span class="ha-custom-badge text-right">Président de l'Université Sidi Mohammed Ben Abdallah, Fès</span> </a></li>
+              <li ><a href="#"> IJJAALI Mustapha   <span class="ha-custom-badge">Doyen de la Faculté des Sciences et Techniques, Fès</span> </a></li>
             </ol>
           </div>
         </div>
-
+        <hr>
+        <div class="col-12">
+          <strong class="ha-click-event" v-on:click="fadeList('.ha-coordonnateurs-list')">Coordonnateurs</strong>
+          <div class="list-type2 ha-coordonnateurs-list">
+            <ol>
+              <li ><a href="#"> Samira SLAOUI <span class="ha-custom-badge">FST FES</span> </a></li>
+              <li ><a href="#"> Hasna BOUTOUIL <span class="ha-custom-badge">FST FES</span> </a></li>
+              <li ><a href="#"> Asmae BELKHOU <span class="ha-custom-badge">EST FES</span> </a></li>
+              <li ><a href="#"> Jamal Eddine HAZEM <span class="ha-custom-badge text-right">FST FES</span> </a></li>
+            </ol>
+          </div>
+        </div>
+        <hr>
       </div>
 
       <div class="row">
-        <div class="col">
-          <strong class="ha-click-event" v-on:click="fadeList('.ha-commite-technique-list')">Comité Technique</strong>
-          <div class="list-type2 ha-commite-technique-list">
-            <ol>
-            <li class=""><a href="#">MRABTI Fatiha  <span class="ha-custom-badge">FST FES</span> </a></li>
-            <li class=""><a href="#">ERAOUI Hamza  <span class="ha-custom-badge">FST FES</span> </a></li>
-          </ol>
-          </div>
-        </div>
-        <div class="col">
+        <div class="col-12">
           <strong class="ha-click-event" v-on:click="fadeList('.ha-commite-orga-list')">Comité d’organisation</strong>
           <div class="list-type2 ha-commite-orga-list">
             <ol>
@@ -61,10 +53,21 @@
             </ol>
           </div>
         </div>
+        <hr>
+        <div class="col-12">
+          <strong class="ha-click-event" v-on:click="fadeList('.ha-commite-technique-list')">Comité Technique</strong>
+          <div class="list-type2 ha-commite-technique-list">
+            <ol>
+            <li class=""><a href="#">MRABTI Fatiha  <span class="ha-custom-badge">FST FES</span> </a></li>
+            <li class=""><a href="#">ERAOUI Hamza  <span class="ha-custom-badge">FST FES</span> </a></li>
+          </ol>
+          </div>
+        </div>
+        <hr>
       </div>
 
       <div class="row">
-        <div class="col">
+        <div class="col-12">
           <strong class="ha-click-event" v-on:click="fadeList('.ha-commite-science-list')">Comité Scientifique </strong>
           <div class="list-type2 ha-commite-science-list">
             <ol>
@@ -72,7 +75,6 @@
               <li class=""><a href="#"> ABOUTAJEDDINE Ahmed  <span class="ha-custom-badge">USMBA FES</span> </a> </li>
               <li class=""><a href="#"> AKKI El-Houcine <span class="ha-custom-badge">Académie d’Amiens, Haut-de-France, France</span> </a> </li>
               <li class=""><a href="#"> ALIOUAT Boualem <span class="ha-custom-badge">Université Sophia Antipolis, Nice, France</span> </a> </li>
-              <li class=""><a href="#"> BELARBI Mokhtari <span class="ha-custom-badge">UMI MEKNES</span> </a> </li>
               <li class=""><a href="#"> BENAMAR Mohamed  <span class="ha-custom-badge">USMBA FES</span> </a> </li>
               <li class=""><a href="#"> BERRICHI   Abdelouahed   <span class="ha-custom-badge"> UMI OUJDA</span> </a> </li>
               <li class=""><a href="#"> DAOUD Miloud  <span class="ha-custom-badge"> USMBA FES</span> </a> </li>
@@ -104,6 +106,7 @@
             </ol>
           </div>
         </div>
+        <hr>
         <div class="col">
         </div>
       </div>
@@ -133,7 +136,7 @@ export default {
       let selector = document.querySelectorAll('.list-type2');
       console.log(selector);
       for (let i=0;i<selector.length;i++){
-        //selector[i].style.display = "none";
+        selector[i].style.display = "none";
       }
     },2000);
   }
@@ -148,9 +151,10 @@ export default {
   .ha-equipe h1{
     font-weight: bold;
     color: #4267b2;
+    font-size: 2em;
   }
   .ha-equipe strong{
-    font-size: 24px;
+    font-size: 22px;
     cursor: pointer;
     padding: 15px;
   }

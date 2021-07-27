@@ -42,7 +42,7 @@ export default {
 <style scoped>
 
 .ha-calendrier{
-  background-color: #e5e5e5;
+  background-color: #f5f5f5;
   padding: 20px 30px;
 }
 .ha-calendrier h1{
