@@ -4,7 +4,7 @@
     <div class="ha-procedure-n">
       <div class="ha-procedure-1">
         <h2>L’intention de communication</h2>
-        <div class="list-type4">
+        <div class="list-type2">
           <ol>
             <li><a href="#">Maximum une page rédigée selon le format Times New Roman Word police12</a></li>
             <li><a href="#">interligne 1.5 (marges : 2.5)</a></li>
@@ -14,11 +14,11 @@
       </div>
       <div class="ha-procedure-2">
         <h2>Le Texte intégral </h2>
-        <div class="list-type4">
+        <div class="list-type2">
           <ol>
             <li><a href="#">Les communications peuvent être soumises en français ou en anglais.</a></li>
             <li><a href="#">Les textes des communications doivent être envoyés sous format électronique à l’adresse émail suivante :
-              <a href="mailto:colloqinnovpedag21@gmail.com">colloqinnovpedag21@gmail.com</a></a></li>
+              colloqinnovpedag21@gmail.com</a></li>
           </ol>
         </div>
 
@@ -55,36 +55,55 @@ export default {
     font-size: 18px;
   }
 
-  .list-type4{
+
+  .list-type2{
     width:90%;
     margin:0 auto;
+    display: block;
   }
 
-  .list-type4 ol{
+  .list-type2 ol{
     counter-reset: li;
     list-style: none;
     *list-style: decimal;
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Raleway', sans-serif;
     padding: 0;
     margin-bottom: 4em;
   }
-  .list-type4 a{
+
+  .list-type2 ol ol{
+    margin: 0 0 0 2em;
+  }
+
+  .list-type2 a{
     position: relative;
     display: block;
     padding: .4em .4em .4em 2em;
     *padding: .4em;
     margin: .5em 0;
-    background: #5975D9;
-    color: white;
+    background: #f5f5f5;
+    color: #444;
     text-decoration: none;
-    box-shadow:inset 0.5em 0 black;
-    -webkit-transition: box-shadow 1s; /* For Safari 3.1 to 6.0 */
-    transition: box-shadow 1s;
+    transition: all .2s ease-in-out;
   }
 
-  .list-type4 a:hover{
-    box-shadow:inset 2em 0 black;
+
+
+  .list-type2 a:before{
+    content: "●";
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #eeeeee;
+    height: 2em;
+    width: 2em;
+    line-height: 1.5em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
   }
 
 </style>

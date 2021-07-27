@@ -7,13 +7,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <router-link class="nav-item nav-link active" to="/">Acceuil </router-link>
+            <router-link class="nav-item nav-link active" to="/">Accueil </router-link>
             <router-link class="nav-item nav-link" to="/argumentaire">Argumentaire</router-link>
-            <router-link class="nav-item nav-link" to="/equipe-du-colloque">Equipe du Colloque</router-link>
+            <router-link class="nav-item nav-link" to="/equipe-du-colloque">Comités</router-link>
             <router-link class="nav-item nav-link" to="/calendrier">Calendrier</router-link>
-            <router-link class="nav-item nav-link" to="/procedure-de-soumission">Procédure de Soumission</router-link>
+            <router-link class="nav-item nav-link" to="/procedure-de-soumission">Soumission</router-link>
             <router-link class="nav-item nav-link" to="/normes-de-redaction">Normes de Rédaction</router-link>
-            <router-link class="nav-item nav-link" to="/references-bibliographiques">Références bibliographiques</router-link>
             <router-link class="nav-item nav-link" to="/contact">Contact</router-link>
           </div>
         </div>
@@ -33,6 +32,7 @@ export default {
   .ha-custom-navbar{
     background-color: #4267b2 !important;
     color: white !important;
+    border-top: 1px solid white;
   }
   .ha-custom-navbar .nav-item{
     color: white !important;

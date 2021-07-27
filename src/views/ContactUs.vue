@@ -9,8 +9,14 @@
       <strong>Contacts :</strong>
       <table class="table">
         <tr>
-          <td> Samira SLAOUI    : 06 63 32 13 77</td>
-          <td> Hasna BOUTOUIL   : 06 72 73 94 63</td>
+          <td> Samira SLAOUI
+            <br> &nbsp; &nbsp; &nbsp; tel : 06 63 32 13 77
+            <br> &nbsp; &nbsp; &nbsp; Email : samira.slaoui@usmba.ac.ma
+          </td>
+          <td> Hasna BOUTOUIL
+            <br> &nbsp; &nbsp; &nbsp; tel : 06 72 73 94 63
+            <br> &nbsp; &nbsp; &nbsp; Email : hasna.boutouil@usmba.ac.ma
+          </td>
         </tr>
 
       </table>

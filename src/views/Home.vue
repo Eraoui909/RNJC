@@ -3,7 +3,25 @@
 
     <div class="ha-coming-soon ">
       <div class="bgimg">
-        <center>
+        <center style="position: relative">
+          <div class="ha-pop-up"></div>
+          <div id="carouselExampleSlidesOnly"  class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+              <div class="carousel-item">
+                <img src="../assets/pictures/place_royale.jpg" height="450px" width="90%" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/pictures/home_02.jpg" height="450px" width="90%" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img src="../assets/pictures/fst1.jpg" height="450px" width="90%" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/pictures/Al-Qarawiyyin-University.jpg" height="450px" width="90%" class="d-block w-100" alt="Al-Qarawiyyin-University">
+              </div>
+            </div>
+          </div>
           <div class="middle">
             <h1 class="ha-countdown-title" >Il reste pour le début de colloque</h1>
             <hr>
@@ -14,15 +32,52 @@
       <div class="ha-home-content">
 
         <section class="ha-nb">
-          <span style="margin-left: 20px;font-size: 17px">Le colloque aura lieu en présentiel si la situation pandémique le permet, ou, à distance, le cas contraire.</span>
+          <span style="margin-left: 20px;font-size: 17px">Le colloque aura lieu en présentiel si la situation pandémique
+            le permet, ou, à distance, le cas contraire.</span>
         </section>
 
-        <section class="ha-fiche">
-          <h1>Fiche descriptive</h1>
-          <center>
-            <img src="../assets/pictures/fiche.png" alt="fiche">
-          </center>
-        </section>
+        <div class="ha-sub-content">
+          <div class="row">
+            <div class="col-md-7">
+              <section class="ha-objectif">
+                <h1>OBJECTIF</h1>
+                <p align="justify">
+                  Ce colloque relève d’une préoccupation majeure qui est de dispenser dans nos universités une formation de
+                  qualité s’accordant pleinement avec les besoins du marché de l’emploi. Il est pour cela impératif de
+                  repenser les pratiques pédagogiques usuelles et cibler avant tout la formation d’un citoyen diplômé
+                  conscient des défis qui l’attendent en ce XXIème siècle. Dans cette optique, notre activité se veut un
+                  espace de discussion permettant à la fois un retour d’expériences et une réflexion sur les éventuelles
+                  perspectives d’avenir quant à un enseignement pertinent.
+                </p>
+              </section>
+            </div>
+            <div class="col-md-5">
+              <div class="ha-informations">
+                <h1>INFORMATIONS</h1>
+                <ul>
+                  <li>
+                    <h5>Soumission des intentions de communication</h5>
+                    <span>15 Septembre 2021</span>
+                  </li>
+                  <li>
+                    <h5>Notification du comité scientifique</h5>
+                    <span>30 septembre 2021</span>
+                  </li>
+                  <li>
+                    <h5>Date limite de réception du texte intégral</h5>
+                    <span>30 Octobre 2021</span>
+                  </li>
+                  <li>
+                    <h5>Date du colloque</h5>
+                    <span>26 & 27 Novembre 2021</span>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </div>
@@ -82,18 +137,32 @@ export default {
 
 <style scoped>
 .bgimg {
-  background-image: url("../assets/pictures/engrenage.jpg");
-  height: 100%;
+  height: 80%;
   background-position: center;
   background-size: cover;
   position: relative;
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
-  padding: 20px;
   color: black;
   font-weight: bold;
 }
-
+.middle{
+  position: absolute;
+  top: 20%;
+  left: 0px;
+  background-color: transparent;
+  width: 100%;
+  z-index: 10;
+}
+.ha-pop-up{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.34);
+  z-index: 5;
+}
 .ha-coming-soon h1{
   font-weight: bold;
   font-size: 1.5em;
@@ -102,13 +171,14 @@ export default {
 
 .ha-home-content{
   padding: 20px 30px;
+  background-color: #f5f5f5;
 }
 
 .ha-home-content .ha-nb{
   position: relative;
   width: 80%;
-  background-color: #EEE;
-  box-shadow: 0px 0px 3px 4px #bfbfbf;
+  background-color: white;
+  box-shadow: 0px 0px 3px 4px #e1e1e1;
   padding: 10px 10px 10px 30px;
 }
 
@@ -128,17 +198,39 @@ export default {
   font-size: 20px;
 }
 
-.ha-fiche{
-  padding: 30px;
+.ha-sub-content{
+  padding: 10px;
 }
-.ha-fiche h1{
+
+.ha-objectif{
+  padding: 15px;
+}
+.ha-objectif h1{
   font-weight: bold;
   color: #4267b2;
 }
-.ha-fiche img{
-  margin: 10px auto;
-  width: 50%;
+.ha-objectif p{
+  font-size: 20px;
+  text-indent: 50px;
+  font-weight: 500;
 }
-
+.ha-informations{
+  padding: 15px;
+}
+.ha-informations h1{
+  font-weight: bold;
+  color: #4267b2;
+}
+.ha-informations ul{
+  list-style: none;
+}
+.ha-informations li{
+  margin: 5px 0px;
+  background-color: white;
+  padding: 10px;
+}
+.ha-informations span{
+  color: red;
+}
 
 </style>

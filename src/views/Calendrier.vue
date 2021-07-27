@@ -22,7 +22,7 @@
       </div>
       <div class="ha-container right">
         <div class="content">
-          <h2>10 septembre 2021</h2>
+          <h2>15 Septembre 2021</h2>
           <p>Soumission des intentions de communication </p>
         </div>
       </div>

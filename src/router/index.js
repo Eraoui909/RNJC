@@ -40,11 +40,7 @@ const routes = [
     name: 'normes-de-redaction',
     component: () => import('../views/NormesDeRedaction')
   },
-  {
-    path: '/references-bibliographiques',
-    name: 'references-bibliographiques',
-    component: () => import('../views/ReferencesBibliographiques')
-  },
+
 ]
 
 const router = new VueRouter({

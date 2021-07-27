@@ -5,7 +5,35 @@
           <img src="../assets/pictures/logo_cellule.png" alt="logo cellule" width="200px">
         </div>
         <div class="col col-larg-2">
-          <h4 style="font-weight: bold;color: white">LA CELLULE TECHNIQUES DE COMMUNICATION & GESTION</h4>
+          <h4 >Les partenaires</h4>
+          <div class="d-flex justify-content-between p-4">
+            <div class="d-flex justify-content-between">
+              <img src="../assets/pictures/part_1.jpg" height="80px" width="80px" alt="part_1">
+              <p style="color: rgb(153, 153, 153);
+                        text-align: justify;
+                        width: 176px;
+                        font-size: 14px;
+                        margin-left: 6px;">
+                Ministère de l’Enseignement Supérieur,
+                    de la Recherche Scientifique et
+                    de la Formation des Cadres
+              </p>
+            </div>
+            <div>
+              <img src="../assets/pictures/part_2.jpg" height="80px" width="200px" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+              <img src="../assets/pictures/part_3.jpg" height="80px" width="100px" alt="">
+              <p style="color: rgb(153, 153, 153);
+                        text-align: justify;
+                        width: 176px;
+                        font-size: 14px;
+                        margin-left: 6px;">
+                Centre National pour la Recherche
+              </p>
+            </div>
+
+          </div>
         </div>
       </div>
       <div class="row ha-footer-2" >
@@ -39,7 +67,9 @@ export default {
     height: 200px;
   }
   .ha-footer-1 div h4{
-    padding-top: 70px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white
   }
 
   @media only screen and (max-width: 780px){
