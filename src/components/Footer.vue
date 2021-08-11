@@ -6,7 +6,7 @@
         </div>
         <div class="col col-larg-2">
           <h4 >Les partenaires</h4>
-          <div class="d-flex justify-content-between p-4">
+          <div class="d-flex justify-content-between p-4" style="flex-wrap: wrap">
             <div class="d-flex justify-content-between">
               <img src="../assets/pictures/part_1.jpg" height="80px" width="80px" alt="part_1">
               <p style="color: rgb(153, 153, 153);
@@ -20,9 +20,9 @@
               </p>
             </div>
             <div>
-              <img src="../assets/pictures/part_2.jpg" height="80px" width="200px" alt="">
+              <img src="../assets/pictures/part_2.jpg" height="80px" width="200px" alt="part_2" style="margin-bottom: 10px;">
             </div>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between"  >
               <img src="../assets/pictures/part_3.jpg" height="80px" width="100px" alt="">
               <p style="color: rgb(153, 153, 153);
                         text-align: justify;

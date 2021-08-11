@@ -154,6 +154,12 @@ export default {
   width: 100%;
   z-index: 10;
 }
+@media only screen and (max-width: 900px) {
+
+  .middle{
+    top: 0%;
+  }
+}
 .ha-pop-up{
   position: absolute;
   left: 0px;
