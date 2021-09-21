@@ -191,6 +191,11 @@ export default {
     display: block;
   }
 
+  @media only screen and (max-width: 700px) {
+    .list-type2{
+      width: 100%;
+    }
+  }
   .list-type2 ol{
     counter-reset: li;
     list-style: none;

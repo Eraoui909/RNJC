@@ -4,22 +4,23 @@
     <div class="ha-contact-content">
       <p>
         Pour toutes informations supplémentaires, veuillez-vous adresser à :
-        <a href="mailto:colloqinnovpedag21@gmail.com">colloqinnovpedag21@gmail.com</a>
+        <a href="mailto:colloqinnovpedag21@gmail.com" >colloqinnovpedag21@gmail.com</a>
       </p>
       <strong>Contacts :</strong>
-      <table class="table">
-        <tr>
-          <td> Samira SLAOUI
+      <div class="row">
+        <div class="col-md-6">
+          <div> Samira SLAOUI
             <br> &nbsp; &nbsp; &nbsp; tel : 06 63 32 13 77
             <br> &nbsp; &nbsp; &nbsp; Email : samira.slaoui@usmba.ac.ma
-          </td>
-          <td> Hasna BOUTOUIL
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div> Hasna BOUTOUIL
             <br> &nbsp; &nbsp; &nbsp; tel : 06 72 73 94 63
             <br> &nbsp; &nbsp; &nbsp; Email : hasna.boutouil@usmba.ac.ma
-          </td>
-        </tr>
-
-      </table>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>

@@ -28,9 +28,11 @@
            </strong>
          </center>
         </div>
+
         <div class="col col-lg-2 ha-col-1">
           <img src="../assets/pictures/logo_cellule.png" alt="logo cellule">
         </div>
+
     </div>
   </div>
 </template>

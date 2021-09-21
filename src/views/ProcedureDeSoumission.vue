@@ -111,6 +111,11 @@ export default {
     margin:0 auto;
     display: block;
   }
+  @media only screen and (max-width: 700px) {
+    .list-type2{
+      width: 100%;
+    }
+  }
 
   .list-type2 ol{
     counter-reset: li;
@@ -157,7 +162,7 @@ export default {
   }
 
   .list-type{
-    padding: 15px;
+    padding: 15px 5px;
   }
   .list-type a{
     color: black;

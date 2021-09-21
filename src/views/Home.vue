@@ -57,11 +57,13 @@
                 <ul>
                   <li>
                     <h5>Soumission des intentions de communication</h5>
-                    <span>15 Septembre 2021</span>
+                    <span>30 Septembre 2021</span>
+                    <span class="ha-old-date">15 Septembre 2021</span>
                   </li>
                   <li>
                     <h5>Notification du comité scientifique</h5>
-                    <span>30 septembre 2021</span>
+                    <span>10 Octobre 2021</span>
+                    <span class="ha-old-date">30 septembre 2021</span>
                   </li>
                   <li>
                     <h5>Date limite de réception du texte intégral</h5>
@@ -111,7 +113,7 @@ export default {
       if(document.getElementById("demo") !== null){
         document.getElementById("demo").innerHTML =
             "<div  style='display: flex;justify-content: space-evenly;flex-wrap: wrap; width: 60%'>"
-            +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: rgba(255,255,255,0.17);width: 160px;height: 160px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ days    + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>jours  </p> " +"</div>"
+            +"<div id='ha-ha-ha' style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: rgba(255,255,255,0.17);width: 160px;height: 160px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ days    + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>jours  </p> " +"</div>"
             +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: rgba(255,255,255,0.17);width: 160px;height: 160px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ hours   + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>heures </p> " +"</div>"
             +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: rgba(255,255,255,0.17);width: 160px;height: 160px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ minutes + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>minutes</p> " +"</div>"
             +"<div style='margin: 2px; transform-origin: 50% 100%;  border-radius: 10px; background-color: rgba(255,255,255,0.17);width: 160px;height: 160px; box-shadow: 0px 0px 5px 5px #EEE; '><strong style=' line-height: 2; font-size: 2.94em;color: white; font-style: normal; font-weight: 700'>"+ seconds + "</strong> <p style='position: relative; bottom: 30px; color: white; font-weight: bold '>seconds</p> " +"</div>"
@@ -145,6 +147,7 @@ export default {
   font-size: 25px;
   color: black;
   font-weight: bold;
+  overflow: hidden;
 }
 .middle{
   position: absolute;
@@ -204,6 +207,13 @@ export default {
   font-size: 20px;
 }
 
+@media only screen and (max-width: 900px)
+{
+  .ha-home-content .ha-nb{
+    width: 100%;
+  }
+}
+
 .ha-sub-content{
   padding: 10px;
 }
@@ -237,6 +247,13 @@ export default {
 }
 .ha-informations span{
   color: red;
+}
+
+.ha-old-date{
+  text-decoration: line-through;
+  margin-left: 15px;
+  font-size: 14px;
+  color: #4267b2 !important;
 }
 
 </style>

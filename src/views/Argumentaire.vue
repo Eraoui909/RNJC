@@ -145,6 +145,12 @@ export default {
     padding: 20px 50px;
     font-size: 19px;
   }
+
+  @media only screen and (max-width: 750px) {
+    .ha-argumentaire .ha-content{
+      padding: 20px 1px;
+    }
+  }
   .ha-argumentaire .ha-content p{
     text-indent: 50px;
     text-align: justify;
@@ -156,6 +162,12 @@ export default {
   .list-type2{
     width:90%;
     margin:0 auto;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .list-type2{
+      width: 100%;
+    }
   }
 
   .list-type2 ol{
