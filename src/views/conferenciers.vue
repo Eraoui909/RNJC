@@ -1,6 +1,6 @@
 <template>
   <div class="ha-conferiencier">
-    <h1>Conferiencié</h1>
+    <h1>Conférienciers</h1>
     <div class="ha-bio-container ">
 
       <div  class="ha-bio-card">
@@ -21,6 +21,9 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLongTitle">Jacques Tardif</h5>
+              <button type="button" style="border: none" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
             <div class="modal-body">
               <div class="row">
@@ -29,16 +32,36 @@
                 </div>
                 <div class="col-md-10">
                   <p>
-                    Professeur émérite de l’Université de Sherbrooke, Jacques Tardif est détenteur d’un doctorat en psychologie de l’éducation (PhD, recherche et intervention) de l’Université de Montréal et il a complété des études postdoctorales (Language and Reading) à l’Université de Californie à Berkeley.
+                    Professeur émérite de l’Université de Sherbrooke, Jacques Tardif est détenteur d’un doctorat en
+                    psychologie de l’éducation (PhD, recherche et intervention) de l’Université de Montréal et il a
+                    complété des études postdoctorales (Language and Reading) à l’Université de Californie à Berkeley.
                   </p>
                   <p>
-                    Après avoir œuvré durant de nombreuses années dans la formation des enseignantes et des enseignants, notamment dans la professionnalisation en adaptation scolaire et sociale ainsi que dans l’enseignement professionnel, il a investi les 10 dernières années de sa vie professorale dans le domaine de la pédagogie de l’enseignement supérieur (pédagogie universitaire). Un secteur de formation dans lequel l’Université de Sherbrooke a été précurseur.
+                    Après avoir œuvré durant de nombreuses années dans la formation des enseignantes et des enseignants,
+                    notamment dans la professionnalisation en adaptation scolaire et sociale ainsi que dans l’enseignement
+                    professionnel, il a investi les 10 dernières années de sa vie professorale dans le domaine de la
+                    pédagogie de l’enseignement supérieur (pédagogie universitaire). Un secteur de formation dans lequel
+                    l’Université de Sherbrooke a été précurseur.
                   </p>
                   <p>
-                    Depuis une 15aine d’années, il agit à titre d’accompagnateur dans divers milieux postsecondaires pour la conception et la mise en œuvre de programmes par compétences. Jacques Tardif a développé une expertise particulière dans l’approche par compétences. Dans ses accompagnements, il porte la plus grande attention à la cohérence entre les dispositifs de formation, les situations d’apprentissage et les pratiques évaluatives assurant une implantation significative et influente de ces programmes visant le développement de compétences. On doit insister sur le fait que l’évaluation des compétences est un dossier auquel il accorde une place capitale en raison des défis posés dans l’adoption de pratiques évaluatives cohérentes avec le développement graduel des compétences.
+                    Depuis une 15aine d’années, il agit à titre d’accompagnateur dans divers milieux postsecondaires pour
+                    la conception et la mise en œuvre de programmes par compétences. Jacques Tardif a développé une
+                    expertise particulière dans l’approche par compétences. Dans ses accompagnements, il porte la plus
+                    grande attention à la cohérence entre les dispositifs de formation, les situations d’apprentissage
+                    et les pratiques évaluatives assurant une implantation significative et influente de ces programmes
+                    visant le développement de compétences. On doit insister sur le fait que l’évaluation des compétences
+                    est un dossier auquel il accorde une place capitale en raison des défis posés dans l’adoption de pratiques
+                    évaluatives cohérentes avec le développement graduel des compétences.
                   </p>
                   <p>
-                    Depuis une 15aine d’années, il agit à titre d’accompagnateur dans divers milieux postsecondaires pour la conception et la mise en œuvre de programmes par compétences. Jacques Tardif a développé une expertise particulière dans l’approche par compétences. Dans ses accompagnements, il porte la plus grande attention à la cohérence entre les dispositifs de formation, les situations d’apprentissage et les pratiques évaluatives assurant une implantation significative et influente de ces programmes visant le développement de compétences. On doit insister sur le fait que l’évaluation des compétences est un dossier auquel il accorde une place capitale en raison des défis posés dans l’adoption de pratiques évaluatives cohérentes avec le développement graduel des compétences.
+                    Depuis une 15aine d’années, il agit à titre d’accompagnateur dans divers milieux postsecondaires pour
+                    la conception et la mise en œuvre de programmes par compétences. Jacques Tardif a développé une
+                    expertise particulière dans l’approche par compétences. Dans ses accompagnements, il porte la plus grande
+                    attention à la cohérence entre les dispositifs de formation, les situations d’apprentissage et les
+                    pratiques évaluatives assurant une implantation significative et influente de ces programmes visant le
+                    développement de compétences. On doit insister sur le fait que l’évaluation des compétences est un
+                    dossier auquel il accorde une place capitale en raison des défis posés dans l’adoption de pratiques
+                    évaluatives cohérentes avec le développement graduel des compétences.
                   </p>
                   <p>
                     Jacques Tardif a écrit plusieurs ouvrages et de nombreux textes. Les trois suivants sont en relation directe avec l’intervention du 27 novembre :
@@ -83,11 +106,14 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLongTitle">Fatima Bousadra</h5>
+              <button type="button" style="border: none" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
             <div class="modal-body">
               <div class="row">
                 <div class="col-md-2">
-                  <img src="../assets/biographie/Bousdra.jpg" width="110px" height="130px" alt="Jacques_Tardif">
+                  <img src="../assets/biographie/Bousdra.jpg" width="110px" height="130px" alt="Bousdra">
                 </div>
                 <div class="col-md-10">
                   <p>
@@ -139,20 +165,22 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLongTitle">Ahmed Aboutajeddine </h5>
+              <button type="button" style="border: none" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
             <div class="modal-body">
               <div class="row">
                 <div class="col-md-2">
-                  <img src="../assets/biographie/aboutajedine.jpg" width="110px" height="130px" alt="Jacques_Tardif">
+                  <img src="../assets/biographie/aboutajedine.jpg" width="110px" height="130px" alt="aboutajedine">
                 </div>
                 <div class="col-md-10">
                  <p>
-                    Ahmed Aboutajeddine est
-                   professeur en génie mécanique et méthodologies d’innovation à la faculté des sciences et techniques
+                    Ahmed Aboutajeddine est professeur en génie mécanique et méthodologies d’innovation à la Faculté des Sciences et Techniques
                    de Fès. Il travaille sur le développement d’activités en éducation d’ingénierie pour l’acquisition
                    des compétences du 21ème siècle. Il a mené la conception et l’implantation de plusieurs cours et
-                   projets en développement de produits sur tout le curriculum de génie mécanique à faculté des sciences
-                   et techniques de Fès
+                   projets en développement de produits sur tout le curriculum de génie mécanique à la Faculté des Sciences
+                   et Techniques de Fès.
                    (<a href="https://www.enjoyeering.com/" target="_blank">https://www.enjoyeering.com/</a>).
                    Ahmed Aboutajeddine est titulaire d’un PhD en génie mécanique de l’université de Sherbrooke au Canada.
                  </p>
@@ -184,11 +212,14 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLongTitle">Christian Puren </h5>
+              <button type="button" style="border: none" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
             <div class="modal-body">
               <div class="row">
                 <div class="col-md-2">
-                  <img src="../assets/biographie/PUREN.png" width="110px" height="130px" alt="Jacques_Tardif">
+                  <img src="../assets/biographie/PUREN.png" width="110px" height="130px" alt="PUREN">
                 </div>
                 <div class="col-md-10">
                  <p>
@@ -236,11 +267,14 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLongTitle">Christian Puren </h5>
+              <button type="button" style="border: none" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
             <div class="modal-body">
               <div class="row">
                 <div class="col-md-2">
-                  <img src="../assets/biographie/amal_hihi.jpg" width="110px" height="130px" alt="Jacques_Tardif">
+                  <img src="../assets/biographie/amal_hihi.jpg" width="110px" height="130px" alt="amal_hihi">
                 </div>
                 <div class="col-md-10">
                  <p>

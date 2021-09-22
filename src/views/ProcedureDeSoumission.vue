@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="ha-normes">
-      <h1>Normes de redaction</h1>
+      <h1>Normes de rédaction</h1>
       <div class="ha-normes-content">
         <div class="list-type">
           <ul class="ha-first">
@@ -58,8 +58,8 @@
 
         <div class="ha-conclusion">
           <p>
-            Les meilleures communications du colloque feront l’objet d’une publication
-            Pour toutes informations supplémentaires, veuillez-vous adresser à :
+            Les meilleures communications du colloque feront l’objet d’une publication dans <span style="color: red;">la Revue Marocaine d'Evaluation et de la Recherche éducative</span>.
+             Pour toutes informations supplémentaires, veuillez-vous adresser à :
             <a href="mailto:colloqinnovpedag21@gmail.com">colloqinnovpedag21@gmail.com</a>
           </p>
           Contacts : Samira SLAOUI    : <a href="tel:0663321377">06 63 32 13 77</a>
