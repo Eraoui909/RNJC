@@ -1,7 +1,7 @@
 <template>
   <div class="ha-footer">
       <div class="row ha-footer-1">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <img src="../assets/pictures/logo_cellule.png" alt="logo cellule" width="200px">
         </div>
         <div class="col col-larg-2">
@@ -19,9 +19,6 @@
                     de la Formation des Cadres
               </p>
             </div>
-            <div>
-              <img src="../assets/pictures/part_2.jpg" height="80px" width="200px" alt="part_2" style="margin-bottom: 10px;">
-            </div>
             <div class="d-flex justify-content-between"  >
               <img src="../assets/pictures/part_3.jpg" height="80px" width="100px" alt="">
               <p style="color: rgb(153, 153, 153);
@@ -32,9 +29,59 @@
                 Centre National pour la Recherche
               </p>
             </div>
+            <div>
+              <img src="../assets/pictures/part_2.jpg" height="80px" width="200px" alt="part_2" style="margin: 10px auto;">
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between p-4" style="flex-wrap: wrap">
+            <div class="d-flex justify-content-between">
+              <img src="../assets/pictures/labo_lsia.png" height="80px" width="150px" alt="part_1">
+              <p style="color: rgb(153, 153, 153);
+                        text-align: justify;
+                        width: 136px;
+                        font-size: 14px;
+                        margin-left: 6px;">
+                Le laboratoire LSIA (Laboratoire des Systèmes Intelligents & Applications)
+              </p>
+            </div>
+
+            <div class="d-flex justify-content-between">
+              <img src="../assets/pictures/apsardi.png" height="80px" width="80px" alt="part_1">
+              <p style="color: rgb(153, 153, 153);
+                        text-align: justify;
+                        width: 196px;
+                        font-size: 14px;
+                        margin-left: 6px;">
+                Association pour la Promotion et le Soutien aux Activités de recherche, Développement et d’innovation              </p>
+            </div>
+
+
+            <div class="d-flex justify-content-between">
+              <p style="color: rgb(153, 153, 153);
+                        text-align: justify;
+                        width: 196px;
+                        font-size: 14px;
+                        margin-left: 6px;">
+                Laboratoire de Recherche et d’Etudes en Management, Entrepreneuriat et Finance ( LAREMEF)
+              </p>
+            </div>
+
+
 
           </div>
-        </div>
+          <div class="d-flex justify-content-between p-4" style="flex-wrap: wrap">
+            <div class="d-flex justify-content-between">
+              <p style="color: rgb(153, 153, 153);
+                        text-align: justify;
+                        width: 216px;
+                        font-size: 14px;
+                        margin-left: 6px;">
+                Laboratoire des Technologies Innovantes, Ecole Supérieure de Technologie (EST FES)
+              </p>
+            </div>
+            </div>
+          </div>
       </div>
       <div class="row ha-footer-2" >
         <div class="col-md-6">

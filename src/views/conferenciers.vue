@@ -3,15 +3,15 @@
     <h1>Conférienciers</h1>
     <div class="ha-bio-container ">
 
-      <div  class="ha-bio-card">
+      <div  class="ha-bio-card" data-toggle="tooltip" data-placement="bottom" title="Cliquez pour voir les détails">
         <div class="ha-bio-card-pop-up">
         </div>
         <div class="ha-bio-card-content"  data-toggle="modal" data-target="#JacquesTardif">
           <span class="ha-tag">
-            PERSONNE
+            Jacques Tardif
           </span>
           <span class="ha-name">
-            Jacques Tardif
+            Pr. émérite de l’Université de Sherbrooke
           </span>
         </div>
       </div>
@@ -88,15 +88,15 @@
 
       <!-- ------------------------------------------------------------------------------------------------------------------- -->
 
-      <div  class="ha-bio-card ha-card-bousdra">
+      <div  class="ha-bio-card ha-card-bousdra" data-toggle="tooltip" data-placement="bottom" title="Cliquez pour voir les détails">
         <div class="ha-bio-card-pop-up">
         </div>
         <div class="ha-bio-card-content"  data-toggle="modal" data-target="#Bousdra">
           <span class="ha-tag">
-            PERSONNE
+            Fatima Bousadra
           </span>
           <span class="ha-name">
-            Fatima Bousadra
+            Ph.D, est professeure de didactique des sciences et technologies
           </span>
         </div>
       </div>
@@ -145,17 +145,65 @@
       </div>
 
       <!-- ------------------------------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div  class="ha-bio-card ha-card-sekkouri" data-toggle="tooltip" data-placement="bottom" title="Cliquez pour voir les détails">
+        <div class="ha-bio-card-pop-up">
+        </div>
+        <div class="ha-bio-card-content"  data-toggle="modal" data-target="#sekkouri">
+          <span class="ha-tag">
+            Abdelhamid SKOURI
+          </span>
+          <span class="ha-name">
+            Enseignant- chercheur à l’USMBA
+          </span>
+        </div>
+      </div>
+
+      <div class="modal fade bd-example-modal-lg" id="sekkouri" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Abdelhamid SKOURI</h5>
+              <button type="button" style="border: none" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="../assets/biographie/Skouri.jpg" width="110px" height="130px" alt="sekouri">
+                </div>
+                <div class="col-md-10">
+                  <p>
+                    Abdelhamid Skouri est enseignant- chercheur à l’université Sidi Mohamed
+                    BenAbdellah depuis janvier 1980. Ses axes de recherche portent sur la stratégie et
+                    l’entrepreneuriat.
+                  </p>
+                  <p>
+                    Son approche de la dynamique entrepreneuriale des organisations et des territoires
+                    allie fondements théoriques et ancrage opérationnel.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
       <!-- ------------------------------------------------------------------------------------------------------------------- -->
 
-      <div  class="ha-bio-card ha-card-aboutajdin">
+      <div  class="ha-bio-card ha-card-aboutajdin" data-toggle="tooltip" data-placement="bottom" title="Cliquez pour voir les détails">
         <div class="ha-bio-card-pop-up">
         </div>
         <div class="ha-bio-card-content"  data-toggle="modal" data-target="#Aboutajdin">
           <span class="ha-tag">
-            PERSONNE
+            Ahmed Aboutajeddine
           </span>
           <span class="ha-name">
-            Ahmed Aboutajeddine
+            Pr. en génie mécanique et méthodologies d’innovation
           </span>
         </div>
       </div>
@@ -194,15 +242,15 @@
 
       <!-- ------------------------------------------------------------------------------------------------------------------- -->
 
- <div  class="ha-bio-card ha-card-Puren">
+ <div  class="ha-bio-card ha-card-Puren" data-toggle="tooltip" data-placement="bottom" title="Cliquez pour voir les détails">
         <div class="ha-bio-card-pop-up">
         </div>
         <div class="ha-bio-card-content"  data-toggle="modal" data-target="#Puren">
           <span class="ha-tag">
-            PERSONNE
+            Christian Puren
           </span>
           <span class="ha-name">
-            Christian Puren
+            Pr. émérite de l'Université de Saint-Etienne
           </span>
         </div>
       </div>
@@ -249,15 +297,78 @@
 
     <!-- ------------------------------------------------------------------------------------------------------------------- -->
 
- <div  class="ha-bio-card ha-card-Amal_hihi">
+ <div  class="ha-bio-card ha-card-ahaji" data-toggle="tooltip" data-placement="bottom" title="Cliquez pour voir les détails">
+        <div class="ha-bio-card-pop-up">
+        </div>
+        <div class="ha-bio-card-content"  data-toggle="modal" data-target="#ahaji">
+          <span class="ha-tag">
+            AHAJI Khalid
+          </span>
+          <span class="ha-name">
+            Directeur du COPE
+          </span>
+        </div>
+      </div>
+
+      <div class="modal fade bd-example-modal-lg" id="ahaji" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">AHAJI Khalid </h5>
+              <button type="button" style="border: none" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="../assets/biographie/ahajji.jpg" width="110px" height="130px" alt="amal_hihi">
+                </div>
+                <div class="col-md-10">
+                 <p>
+                   Directeur de la Revue Marocaine d’Évaluation et de la Recherche Éducative.
+                   Professeur Habilité en Mesure/Évaluation et Psychométrie.
+                   Chercheur associé au Laboratoire Education et Dynamique Sociale. FSE. Université Med V. Rabat. Maroc
+                 </p>
+                  <br>
+                  <p>
+                    Autres intérêts : Didactique des sciences/TICE/Psychopédagogie/Sciences de l'Education/Méthodologie de recherche/Sociologie de l'éducation/Intervention Sociale/Analyse des Pratiques Professionnelles/ Coaching.
+                    Ex.Ingénieur d'état.
+                  </p>
+                  <p>
+                    Ex.Responsable de la division de l'orientation et de la coordination de la recherche pédagogique.
+                  </p>
+                  <p>
+                    Ex.Responsable du projet de l'ingénierie de l'innovation par les TICE.
+                    Membre de comités scientifiques nationaux et internationaux de revues indexées ( et de colloques).
+                  </p>
+                  <p>
+                    Membre des comités paritaires ( Snesup).
+                  </p>
+                  <p>
+                    Délégué régional des associations des Parents d'élèves (collège)
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+ <div  class="ha-bio-card ha-card-Amal_hihi" data-toggle="tooltip" data-placement="bottom" title="Cliquez pour voir les détails">
         <div class="ha-bio-card-pop-up">
         </div>
         <div class="ha-bio-card-content"  data-toggle="modal" data-target="#Amal_hihi">
           <span class="ha-tag">
-            PERSONNE
+            Amal Hihi
           </span>
           <span class="ha-name">
-            Amal Hihi
+            Experte en Management, Leadership et en Coaching
           </span>
         </div>
       </div>
@@ -266,7 +377,7 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Christian Puren </h5>
+              <h5 class="modal-title" id="exampleModalLongTitle"> Amal Hihi </h5>
               <button type="button" style="border: none" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -292,6 +403,47 @@
                   <p>
                     Amal est aussi trés investie dans l’associatif , elle est vice présidente de WIMEN (Réseau Internationale de Femmes Dirigeantes )
                   </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+ <div  class="ha-bio-card ha-card-Catherine" data-toggle="tooltip" data-placement="bottom" title="Cliquez pour voir les détails">
+        <div class="ha-bio-card-pop-up">
+        </div>
+        <div class="ha-bio-card-content"  data-toggle="modal" data-target="#Catherine">
+          <span class="ha-tag">
+            Catherine Colaux
+          </span>
+          <span class="ha-name">
+            ...
+          </span>
+        </div>
+      </div>
+
+      <div class="modal fade bd-example-modal-lg" id="Catherine" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Catherine Colaux</h5>
+              <button type="button" style="border: none" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="../assets/biographie/catherine.jpg" width="110px" height="130px" alt="amal_hihi">
+                </div>
+                <div class="col-md-10">
+                 <p>...</p>
                 </div>
               </div>
             </div>
@@ -347,7 +499,7 @@ p{
 .ha-bio-card{
   width: 280px;
   height: 320px;
-  margin: 30px 50px;
+  margin: 30px 20px;
   background-image: url('../assets/biographie/Jacques_Tardif.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -407,6 +559,15 @@ p{
 }
 .ha-card-Amal_hihi{
   background-image: url('../assets/biographie/amal_hihi.jpg');
+}
+.ha-card-ahaji{
+  background-image: url('../assets/biographie/ahajji.jpg');
+}
+.ha-card-Catherine{
+  background-image: url('../assets/biographie/catherine.jpg');
+}
+.ha-card-sekkouri{
+  background-image: url('../assets/biographie/Skouri.jpg');
 }
 
 /* ------------------------------------------------- */

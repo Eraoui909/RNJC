@@ -70,6 +70,10 @@
                     <span>30 Octobre 2021</span>
                   </li>
                   <li>
+                    <h5>Acceptation définitive des textes</h5>
+                    <span>10 Novembre 2021</span>
+                  </li>
+                  <li>
                     <h5>Date du colloque</h5>
                     <span>26 & 27 Novembre 2021</span>
                   </li>

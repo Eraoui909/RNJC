@@ -41,6 +41,7 @@
               <li class=""><a href="#"> BOUTOUIL Hasna <span class="ha-custom-badge">FST FES</span> </a> </li>
               <li class=""><a href="#"> ELADOULI Nissrine <span class="ha-custom-badge">FST FES</span> </a> </li>
               <li class=""><a href="#"> EL HARTI Khadija  <span class="ha-custom-badge">FST FES</span> </a> </li>
+              <li class=""><a href="#"> MRABTI Fatiha  <span class="ha-custom-badge">FST FES</span> </a> </li>
               <li class=""><a href="#"> HAZM Jamal Eddine <span class="ha-custom-badge">FST FES</span> </a> </li>
               <li class=""><a href="#"> OUAZZANI Wahiba <span class="ha-custom-badge">Chargée de coopération, Institut Français de Fès</span> </a> </li>
               <li class=""><a href="#"> REMMAL Salouwa <span class="ha-custom-badge">FSDM FES</span> </a> </li>
@@ -79,7 +80,7 @@
               <li class=""><a href="#"> BERRICHI   Abdelouahed   <span class="ha-custom-badge"> UMI OUJDA</span> </a> </li>
               <li class=""><a href="#"> DAOUD Miloud  <span class="ha-custom-badge"> USMBA FES</span> </a> </li>
               <li class=""><a href="#"> DRISSI Zineb <span class="ha-custom-badge">USMBA FES</span> </a> </li>
-              <li class=""><a href="#"> EDDILANI Oumhani <span class="ha-custom-badge">USMBA FES</span> </a> </li>
+              <li class=""><a href="#"> EDDELANI Oumhani <span class="ha-custom-badge">USMBA FES</span> </a> </li>
               <li class=""><a href="#"> EL AMRANI ELIDRISSI Najiba <span class="ha-custom-badge">USMBA FES</span> </a> </li>
               <li class=""><a href="#"> EL AZOUZI Abdelmounïm  <span class="ha-custom-badge">USMBA FES</span> </a> </li>
               <li class=""><a href="#"> EL HIMANI Abdelghani <span class="ha-custom-badge">USMBA FES</span> </a> </li>
@@ -103,6 +104,7 @@
               <li class=""><a href="#"> TAMNINE Larbi  <span class="ha-custom-badge">USMBA FES</span> </a> </li>
               <li class=""><a href="#"> YAZAMI KHADIRI Bahija <span class="ha-custom-badge">USMBA FES</span> </a> </li>
               <li class=""><a href="#"> ZAMMAR Rachid <span class="ha-custom-badge">UMV RABAT Agdal</span> </a> </li>
+              <li class=""><a href="#"> NAJAH Said <span class="ha-custom-badge">USMBA FES</span> </a> </li>
             </ol>
           </div>
         </div>
