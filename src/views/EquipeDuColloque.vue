@@ -11,6 +11,7 @@
             <ol>
               <li ><a href="#"> MRABET Radouane  <span class="ha-custom-badge text-right">Président de l'Université Sidi Mohammed Ben Abdallah, Fès</span> </a></li>
               <li ><a href="#"> IJJAALI Mustapha   <span class="ha-custom-badge">Doyen de la Faculté des Sciences et Techniques, Fès</span> </a></li>
+              <li ><a href="#"> BENBASSOU Ali   <span class="ha-custom-badge">Directeur de l'école supérieure de technologie, Fès</span> </a></li>
             </ol>
           </div>
         </div>
@@ -39,7 +40,6 @@
               <li class=""><a href="#"> BELKHOU Asmae <span class="ha-custom-badge">EST FES</span> </a> </li>
               <li class=""><a href="#"> BENLAHCEN Maryam <span class="ha-custom-badge">FST FES</span> </a> </li>
               <li class=""><a href="#"> BOUTOUIL Hasna <span class="ha-custom-badge">FST FES</span> </a> </li>
-              <li class=""><a href="#"> ELADOULI Nissrine <span class="ha-custom-badge">FST FES</span> </a> </li>
               <li class=""><a href="#"> EL HARTI Khadija  <span class="ha-custom-badge">FST FES</span> </a> </li>
               <li class=""><a href="#"> MRABTI Fatiha  <span class="ha-custom-badge">FST FES</span> </a> </li>
               <li class=""><a href="#"> HAZM Jamal Eddine <span class="ha-custom-badge">FST FES</span> </a> </li>

@@ -35,6 +35,7 @@
           </div>
 
           <div class="d-flex justify-content-between p-4" style="flex-wrap: wrap">
+
             <div class="d-flex justify-content-between">
               <img src="../assets/pictures/labo_lsia.png" height="80px" width="150px" alt="part_1">
               <p style="color: rgb(153, 153, 153);
@@ -47,6 +48,32 @@
             </div>
 
             <div class="d-flex justify-content-between">
+              <p style="color: rgb(153, 153, 153);
+                        text-align: justify;
+                        width: 196px;
+                        font-size: 14px;
+                        margin-left: 6px;">
+                Laboratoire de Recherche et d’Etudes en Management, Entrepreneuriat et Finance LAREMEF ( ENCG FES)
+              </p>
+            </div>
+
+            <div class="d-flex justify-content-between">
+              <img src="../assets/pictures/Logo_est.png" height="80px" width="150px" alt="part_1">
+              <p style="color: rgb(153, 153, 153);
+                        text-align: justify;
+                        width: 160px;
+                        font-size: 14px;
+                        margin-left: 6px;">
+                Laboratoire des Technologies Innovantes, Ecole Supérieure de Technologie (EST FES)
+              </p>
+            </div>
+
+
+          </div>
+
+          <div class="d-flex justify-content-between p-4" style="flex-wrap: wrap">
+
+            <div class="d-flex justify-content-between">
               <img src="../assets/pictures/apsardi.png" height="80px" width="80px" alt="part_1">
               <p style="color: rgb(153, 153, 153);
                         text-align: justify;
@@ -56,32 +83,9 @@
                 Association pour la Promotion et le Soutien aux Activités de recherche, Développement et d’innovation              </p>
             </div>
 
-
-            <div class="d-flex justify-content-between">
-              <p style="color: rgb(153, 153, 153);
-                        text-align: justify;
-                        width: 196px;
-                        font-size: 14px;
-                        margin-left: 6px;">
-                Laboratoire de Recherche et d’Etudes en Management, Entrepreneuriat et Finance ( LAREMEF)
-              </p>
-            </div>
-
-
-
           </div>
-          <div class="d-flex justify-content-between p-4" style="flex-wrap: wrap">
-            <div class="d-flex justify-content-between">
-              <p style="color: rgb(153, 153, 153);
-                        text-align: justify;
-                        width: 216px;
-                        font-size: 14px;
-                        margin-left: 6px;">
-                Laboratoire des Technologies Innovantes, Ecole Supérieure de Technologie (EST FES)
-              </p>
-            </div>
-            </div>
-          </div>
+
+        </div>
       </div>
       <div class="row ha-footer-2" >
         <div class="col-md-6">
