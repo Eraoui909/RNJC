@@ -1,95 +1,35 @@
 <template>
   <div class="ha-footer">
-      <div class="row ha-footer-1">
-        <div class="col-md-3">
-          <img src="../assets/pictures/logo_cellule.png" alt="logo cellule" width="200px">
-        </div>
-        <div class="col col-larg-2">
-          <h4 >Les partenaires</h4>
-          <div class="d-flex justify-content-between p-4" style="flex-wrap: wrap">
-            <div class="d-flex justify-content-between">
-              <img src="../assets/pictures/part_1.jpg" height="80px" width="80px" alt="part_1">
-              <p style="color: rgb(153, 153, 153);
-                        text-align: justify;
-                        width: 176px;
-                        font-size: 14px;
-                        margin-left: 6px;">
-                Ministère de l’Enseignement Supérieur,
-                    de la Recherche Scientifique et
-                    de la Formation des Cadres
-              </p>
-            </div>
-            <div class="d-flex justify-content-between"  >
-              <img src="../assets/pictures/part_3.jpg" height="80px" width="100px" alt="">
-              <p style="color: rgb(153, 153, 153);
-                        text-align: justify;
-                        width: 176px;
-                        font-size: 14px;
-                        margin-left: 6px;">
-                Centre National pour la Recherche
-              </p>
-            </div>
-            <div>
-              <img src="../assets/pictures/part_2.jpg" height="80px" width="200px" alt="part_2" style="margin: 10px auto;">
-            </div>
-          </div>
+      <div class="ha-footer-1">
+          <h4>Partenaires</h4>
+          <div class="ha-logo-list">
 
-          <div class="d-flex justify-content-between p-4" style="flex-wrap: wrap">
-
-            <div class="d-flex justify-content-between">
-              <img src="../assets/pictures/labo_lsia.png" height="80px" width="150px" alt="part_1">
-              <p style="color: rgb(153, 153, 153);
-                        text-align: justify;
-                        width: 136px;
-                        font-size: 14px;
-                        margin-left: 6px;">
-                Le laboratoire LSIA (Laboratoire des Systèmes Intelligents & Applications)
-              </p>
+            <div class="ha-logo-card ha-logo-1">
             </div>
 
-            <div class="d-flex justify-content-between">
-              <p style="color: rgb(153, 153, 153);
-                        text-align: justify;
-                        width: 196px;
-                        font-size: 14px;
-                        margin-left: 6px;">
-                Laboratoire de Recherche et d’Etudes en Management, Entrepreneuriat et Finance LAREMEF ( ENCG FES)
-              </p>
+            <div class="ha-logo-card ha-logo-2">
             </div>
 
-            <div class="d-flex justify-content-between">
-              <img src="../assets/pictures/Logo_est.png" height="80px" width="150px" alt="part_1">
-              <p style="color: rgb(153, 153, 153);
-                        text-align: justify;
-                        width: 160px;
-                        font-size: 14px;
-                        margin-left: 6px;">
-                Laboratoire des Technologies Innovantes, Ecole Supérieure de Technologie (EST FES)
-              </p>
+            <div class="ha-logo-card ha-logo-3">
+            </div>
+
+            <div class="ha-logo-card ha-logo-4" style="background-position: center ">
+            </div>
+
+            <div class="ha-logo-card ha-logo-5">
+            </div>
+
+            <div class="ha-logo-card ha-logo-6">
             </div>
 
 
           </div>
-
-          <div class="d-flex justify-content-between p-4" style="flex-wrap: wrap">
-
-            <div class="d-flex justify-content-between">
-              <img src="../assets/pictures/apsardi.png" height="80px" width="80px" alt="part_1">
-              <p style="color: rgb(153, 153, 153);
-                        text-align: justify;
-                        width: 196px;
-                        font-size: 14px;
-                        margin-left: 6px;">
-                Association pour la Promotion et le Soutien aux Activités de recherche, Développement et d’innovation              </p>
-            </div>
-
-          </div>
-
-        </div>
       </div>
       <div class="row ha-footer-2" >
         <div class="col-md-6">
-          <span>Cellule TEC & Gestion</span>
+          <span>
+            LSSC, Faculté des Sciences et Techniques de Fès
+          </span>
         </div>
         <div class="col-md-6" style="text-align: right">
           <span>Developed by <strong>Hamza Eraoui</strong></span>
@@ -108,7 +48,6 @@ export default {
 
   .ha-footer{
     width: 100%;
-    padding: 0px 10px;
   }
   .ha-footer-1{
     padding: 15px;
@@ -135,6 +74,49 @@ export default {
     background-color: #272727;
     color: white;
     padding: 10px;
+    width: 100%;
+    margin: 0px auto;
   }
+
+  .ha-footer-1{
+    width: 100%;
+    color: #EEEEEE;
+    padding: 15px;
+  }
+
+  .ha-logo-list{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .ha-logo-card{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 10px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ha-logo-1{
+    background-image: url("../assets/pictures/men_gov_blue.png");
+  }
+  .ha-logo-2{
+    background-image: url("../assets/pictures/part_3.jpg");
+  }
+  .ha-logo-3{
+    background-image: url("../assets/pictures/usmba.png");
+  }
+  .ha-logo-4{
+    background-image: url("../assets/pictures/fst.png");
+  }
+  .ha-logo-5{
+    background-image: url("../assets/pictures/logo_gasup.png");
+  }
+  .ha-logo-6{
+    background-image: url("../assets/pictures/apsardi.png");
+  }
+
 
 </style>

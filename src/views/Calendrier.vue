@@ -2,36 +2,22 @@
   <div class="ha-calendrier">
     <h1>Calendrier</h1>
     <div class="timeline">
+      <div class="ha-container right">
+        <div class="content">
+          <h2>10 Avril 2022</h2>
+          <p>Date de notification d'accéptation</p>
+        </div>
+      </div>
       <div class="ha-container left">
         <div class="content">
-          <h2>26 & 27 Novembre 2021</h2>
-          <p>Date du colloque</p>
+          <h2>2 Avril 2022</h2>
+          <p>Date limite de soummission</p>
         </div>
       </div>
       <div class="ha-container right">
         <div class="content">
-          <h2>10 Novembre 2021</h2>
-          <p>Acceptation définitive des textes</p>
-        </div>
-      </div>
-      <div class="ha-container left">
-        <div class="content">
-          <h2>30 Octobre 2021</h2>
-          <p>Date limite de réception du texte intégral </p>
-        </div>
-      </div>
-      <div class="ha-container right">
-        <div class="content">
-          <h2 class="ha-new-date">10 Octobre 2021</h2>
-          <h2 class="ha-old-date">30 septembre 2021</h2>
-          <p>Notification du comité scientifique </p>
-        </div>
-      </div>
-      <div class="ha-container left">
-        <div class="content">
-          <h2 class="ha-new-date">30 Septembre 2021</h2>
-          <h2 class="ha-old-date">15 Septembre 2021</h2>
-          <p>Soumission des intentions de communication </p>
+          <h2>18-19 Mai 2022</h2>
+          <p>Date de conférence</p>
         </div>
       </div>
 

@@ -8,16 +8,16 @@
 </template>
 
 <script>
-import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
   export default {
     name: 'App',
     components: {
-      Header,
       Navbar,
-      Footer
+      Footer,
+      Header
     }
   }
 </script>
@@ -43,5 +43,21 @@ import Footer from './components/Footer';
       width: 100%;
     }
   }
+
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #4267b2 ;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
 
 </style>

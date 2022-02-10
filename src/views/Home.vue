@@ -15,7 +15,7 @@
                 <img src="../assets/pictures/home_02.jpg" height="450px" width="90%" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item active">
-                <img src="../assets/pictures/fst1.jpg" height="450px" width="90%" class="d-block w-100" alt="...">
+                <img src="../assets/pictures/FST-fes.jpg" height="450px" width="90%" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="../assets/pictures/Al-Qarawiyyin-University.jpg" height="450px" width="90%" class="d-block w-100" alt="Al-Qarawiyyin-University">
@@ -23,18 +23,18 @@
             </div>
           </div>
           <div class="middle">
-            <h1 class="ha-countdown-title" >Il reste pour le début de colloque</h1>
+            <h1 class="ha-countdown-title" >5<sup>ÉME</sup> <strong>R</strong>ENCONTRE <strong>N</strong>ATIONALE DES <strong>J</strong>EUNES <strong>C</strong>HERCHEURS EN <strong>S</strong>CIENCES DE L'<strong>I</strong>NGÉNIEUR</h1>
             <hr>
-            <p id="demo"></p>
+
           </div>
         </center>
       </div>
       <div class="ha-home-content">
 
-        <section class="ha-nb">
+<!--        <section class="ha-nb">
           <span style="margin-left: 20px;font-size: 17px">Le colloque aura lieu en présentiel si la situation pandémique
             le permet, ou, à distance, le cas contraire.</span>
-        </section>
+        </section> -->
 
         <div class="ha-sub-content">
           <div class="row">
@@ -42,40 +42,53 @@
               <section class="ha-objectif">
                 <h1>OBJECTIF</h1>
                 <p align="justify">
-                  Ce colloque relève d’une préoccupation majeure qui est de dispenser dans nos universités une formation de
-                  qualité s’accordant pleinement avec les besoins du marché de l’emploi. Il est pour cela impératif de
-                  repenser les pratiques pédagogiques usuelles et cibler avant tout la formation d’un citoyen diplômé
-                  conscient des défis qui l’attendent en ce XXIème siècle. Dans cette optique, notre activité se veut un
-                  espace de discussion permettant à la fois un retour d’expériences et une réflexion sur les éventuelles
-                  perspectives d’avenir quant à un enseignement pertinent.
+                  La Rencontre Nationale des Jeunes Chercheurs en Sciences de l’Ingénieur RNJC’2022 s&#39;adresse
+                  à tous les étudiants en cycle doctorale des différents laboratoires nationaux. Cette rencontre est
+                  l&#39;occasion pour chaque participant de présenter ses travaux de recherche dans une ambiance
+                  conviviale et de partager avec ses collègues une vue d&#39;ensemble des différentes recherches
+                  menées à l&#39;heure actuelle dans sa spécialité et dans des domaines proches. C’est aussi un lieu de
+                  partage d’expériences entre les jeunes chercheurs, doctorants et industriels s’intéressant aux
+                  nouvelles technologies de l’information et de communication et au domaine de génie électrique.
+                  En effet, il s’agit de créer une occasion de rencontre pour établir des collaborations de
+                  partenariat entre les chercheurs universitaires avec les industriels et les opérateurs socio-
+                  économique à travers le montage de projets d&#39;intérêt commun.
                 </p>
+              </section>
+              <section class="ha-thematique">
+                <h1>THÉMATIQUES</h1>
+                <div class="list-type2 ha-thematique-list">
+                  <ol>
+                    <li ><a href="#" style="text-transform: uppercase;">Ingenierie des matériaux et Applications</a></li>
+                    <li ><a href="#" style="text-transform: uppercase;">Matériaux pour l'environnement</a></li>
+                    <li ><a href="#" style="text-transform: uppercase;">Informatique et Systèmes intelligent</a></li>
+                    <li ><a href="#" style="text-transform: uppercase;">Systèmes embarqués</a></li>
+                    <li ><a href="#" style="text-transform: uppercase;">Microélectronique</a></li>
+                    <li ><a href="#" style="text-transform: uppercase;">Compatibilité ElectroMagnétique (CEM)</a></li>
+                    <li ><a href="#" style="text-transform: uppercase;">Théorie de l'Information</a></li>
+                    <li ><a href="#" style="text-transform: uppercase;">télecom & Réseaux cognitifs</a></li>
+                    <li ><a href="#" style="text-transform: uppercase;">Energies renouvelables et RESEAUX ELECTRIQUES INTELLIGENTS</a></li>
+                  </ol>
+                </div>
               </section>
             </div>
             <div class="col-md-5">
               <div class="ha-informations">
                 <h1>INFORMATIONS</h1>
                 <ul>
+
                   <li>
-                    <h5>Soumission des intentions de communication</h5>
-                    <span>30 Septembre 2021</span>
-                    <span class="ha-old-date">15 Septembre 2021</span>
+                    <h5>Date de conférence</h5>
+                    <span>18-19 Mai 2022</span>
                   </li>
+
                   <li>
-                    <h5>Notification du comité scientifique</h5>
-                    <span>10 Octobre 2021</span>
-                    <span class="ha-old-date">30 septembre 2021</span>
+                    <h5>Date limite de soummission</h5>
+                    <span>2 Avril 2022</span>
                   </li>
+
                   <li>
-                    <h5>Date limite de réception du texte intégral</h5>
-                    <span>30 Octobre 2021</span>
-                  </li>
-                  <li>
-                    <h5>Acceptation définitive des textes</h5>
-                    <span>10 Novembre 2021</span>
-                  </li>
-                  <li>
-                    <h5>Date du colloque</h5>
-                    <span>26 & 27 Novembre 2021</span>
+                    <h5>Date de notification d'accéptation</h5>
+                    <span>10 Avril 2022</span>
                   </li>
 
                 </ul>
@@ -101,9 +114,9 @@ export default {
   },
   created(){
     //------------------------------------------
-    let countDownDate = new Date("Nov 26, 2021 10:00:00").getTime();
+    //let countDownDate = new Date("Nov 26, 2021 10:00:00").getTime();
 
-    let x = setInterval(function() {
+    /*let x = setInterval(function() {
 
       let now = new Date().getTime();
 
@@ -130,7 +143,7 @@ export default {
         document.querySelector(".ha-countdown-title").innerHTML = "Bienvenue dans TEC & Gestion";
         document.getElementById("demo").innerHTML = "";
       }
-    }, 1000);
+    }, 1000); */
 
     //----------------------------------------------
 
@@ -143,7 +156,7 @@ export default {
 
 <style scoped>
 .bgimg {
-  height: 80%;
+  height: 320px;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -155,16 +168,17 @@ export default {
 }
 .middle{
   position: absolute;
-  top: 20%;
-  left: 0px;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   background-color: transparent;
-  width: 100%;
+  width: 80%;
   z-index: 10;
 }
 @media only screen and (max-width: 900px) {
 
   .middle{
-    top: 0%;
+    font-size: 18px;
   }
 }
 .ha-pop-up{
@@ -258,6 +272,71 @@ export default {
   margin-left: 15px;
   font-size: 14px;
   color: #4267b2 !important;
+}
+
+.ha-thematique{
+  padding: 15px;
+}
+.ha-thematique h1{
+  font-weight: bold;
+  color: #4267b2;
+}
+
+.list-type2 ol{
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin-bottom: 4em;
+}
+
+.list-type2 ol ol{
+  margin: 0 0 0 2em;
+}
+
+.list-type2 a{
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  *padding: .4em;
+  margin: .5em 0;
+  background: #f5f5f5;
+  color: #444;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+
+
+.list-type2 a:before{
+  content: "●";
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #eeeeee;
+  height: 2em;
+  width: 2em;
+  line-height: 1.5em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  color: gray;
+}
+
+.ha-thematique-list{
+  margin-left: 50px;
+  padding: 6px;
+}
+@media only screen and (max-width: 600px){
+
+  .ha-thematique-list{
+    margin-left: 20px;
+    padding: 2px;
+  }
+
 }
 
 </style>

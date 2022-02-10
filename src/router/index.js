@@ -21,9 +21,9 @@ const routes = [
     component:() =>   import('../views/Argumentaire')
   },
   {
-    path: '/equipe-du-colloque',
-    name: 'equipe-du-colloque',
-    component: () => import('../views/EquipeDuColloque')
+    path: '/comite',
+    name: 'comite',
+    component: () => import('../views/Comite')
   },
   {
     path: '/calendrier',
@@ -45,6 +45,21 @@ const routes = [
       name: 'conferenciers',
       component: () => import('../views/conferenciers')
     },
+  {
+    path: '/inscription',
+    name: 'inscription',
+    component: () => import('../views/Inscription')
+  },
+  {
+    path: '/concour',
+    name: 'concour',
+    component: () => import('../views/Concour')
+  },
+  {
+    path: '/editions-précedantes',
+    name: 'preveditions',
+    component: () => import('../views/EditionsPrecedantes')
+  },
 
 ]
 

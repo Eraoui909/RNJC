@@ -5,7 +5,7 @@
 module.exports = {
     // options...
     publicPath: process.env.NODE_ENV === 'production'
-        ? '/conferences/innovation-pédagogique-et-employabilité/'
+        ? '/conferences/RNJC-SI/22/'
         : '',
 
     // Other options include:
